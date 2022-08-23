@@ -1,0 +1,15 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 3rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#links {
+	font-size: 3.5em;
+	text-align: left;
+	text-decoration: none;
+}
