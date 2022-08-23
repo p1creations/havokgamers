@@ -1,5 +1,5 @@
 # havokgamers
 Havok Gamers Stream Team
 
-check us out here www.havokgamers.com /n
-and fill out application here to be featured on our friends area. https://forms.gle/a8QzC7ryXhwgrgkcA
+Check us out here www.havokgamers.com 
+Fill out the application to be featured on our friends area. https://forms.gle/a8QzC7ryXhwgrgkcA
