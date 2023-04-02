@@ -14,9 +14,10 @@ var megamimoritv = '<iframe src="https://clips.twitch.tv/embed?clip=BigCleverAlf
 var sykogrimm = '<iframe src="https://clips.twitch.tv/embed?clip=FrozenSteamyCocoaDatBoi-7sGC89vkOHJ_Dt5P&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var expoxmvpz = '<iframe src="https://clips.twitch.tv/embed?clip=ImpartialCleanGnatPoooound-eX4W0ZmCXkaKLgPA&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var countrymama9388 = '<iframe src="https://player.twitch.tv/?video=1220664481&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
+var tacticalgrunt82 = '<iframe src="https://player.twitch.tv/?video=1074352398&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 
 function myFunction() {
-  var rand = Math.floor((Math.random() * 16) + 1);
+  var rand = Math.floor((Math.random() * 17) + 1);
   if(rand === 1) { rand = casFeat;}
   if(rand === 2) { rand = daddyFeat;}
   if(rand === 3) { rand = eirFeat;}
@@ -33,6 +34,7 @@ function myFunction() {
   if(rand === 14) { rand = sykogrimm;}
   if(rand === 15) { rand = expoxmvpz;}
   if(rand === 16) { rand = countrymama9388;}
+  if(rand === 17) { rand = tacticalgrunt82;}
 
 
   document.getElementById("featuredContent").innerHTML = rand;
