@@ -13,3 +13,11 @@ a:link {
 	text-align: left;
 	text-decoration: none;
 }
+
+#fixedBar {
+	position: fixed;
+	background-color: #041C32;
+	opacity: 0.8;
+	width: 70%;
+
+}
