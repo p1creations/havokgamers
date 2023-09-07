@@ -15,6 +15,7 @@ a:link {
 }
 
 #fixedBar {
+	z-index:1000;
 	position: fixed;
 	background-color: #041C32;
 	opacity: 0.8;
