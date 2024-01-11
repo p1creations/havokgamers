@@ -15,7 +15,7 @@ var sykogrimm = '<iframe src="https://clips.twitch.tv/embed?clip=FrozenSteamyCoc
 var expoxmvpz = '<iframe src="https://clips.twitch.tv/embed?clip=ImpartialCleanGnatPoooound-eX4W0ZmCXkaKLgPA&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var countrymama9388 = '<iframe src="https://player.twitch.tv/?video=1220664481&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var tacticalgrunt82 = '<iframe src="https://player.twitch.tv/?video=1074352398&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
-var JSmoke1987 = '<iframe src="https://clips.twitch.tv/embed?clip=AffluentKindSandwichWutFace-Uufv-8FGfVkBgjcA&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
+var jsmoke1987 = '<iframe src="https://clips.twitch.tv/embed?clip=AffluentKindSandwichWutFace-Uufv-8FGfVkBgjcA&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var bigsav84 = '<iframe src="https://player.twitch.tv/?video=1903203115&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var lttwig007 = '<iframe src="https://player.twitch.tv/?video=1463027335&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var bobbyinlobby = '<iframe src="https://player.twitch.tv/?video=1931061613&parent=www.havokgamers.com&autoplay=true&muted=true" height="500" width="100%" allowfullscreen="true"></iframe>';
@@ -40,7 +40,7 @@ function myFunction() {
   if(rand === 15) { rand = expoxmvpz;}
   if(rand === 16) { rand = countrymama9388;}
   if(rand === 17) { rand = tacticalgrunt82;}
-  if(rand === 18) { rand = JSmoke1987;}
+  if(rand === 18) { rand = jsmoke1987;}
   if(rand === 19) { rand = bigsav84;}
   if(rand === 20) { rand = lttwig007;}
   if(rand === 21) { rand = bobbyinlobby;}
