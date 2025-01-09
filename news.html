@@ -119,6 +119,7 @@
             <!-- Featured News -->
             <section class="featured-news">
                 <img src="images/featured-news.jpg" alt="Featured News Thumbnail">
+		    <br>
                 <div class="featured-text">
 <h2>Explore the Fantastical Realm of Nave in Mortal Online 2</h2>
 		  <br>
@@ -145,22 +146,27 @@
                 <h3>Recent News</h3>
                 <div class="news-item">
                     <img src="images/news1.jpg" alt="News 1 Thumbnail">
+			<br>
 			<h2>Explore New Weapons in Myth of Empires' Persia DLC</h2> 
 			<button id="openModalBtn2">Click here to read more</button>
-                    <!-- The Second Modal --> 
-			<div id="myModal2" class="modal"> 
-		<!-- Modal content --> 
-			<div class="modal-content"> 
-				<span class="close2">&times;</span> 
-				<p>Date: January 5, 2025</p> 
-				<p>By: p1skates</p> 
-				<p>Category: Game Updates</p> 
-				<h3>The historical survival sandbox game Myth of Empires has revealed a new set of weapons for its upcoming Persia DLC. Indie game developer Angela Game and publisher Imperium Interactive Entertainment have showcased a variety of unique and powerful weapons that will be added to the game.</h3> 
-				<p>The Persia DLC introduces over a dozen new weapons, each with distinct designs and abilities. Highlights include the <strong>White Wolf Waist Knife</strong>, perfect for mounted combat, and the <strong>Inferno Hatchet</strong>, known for its ability to break through shields and armor. Other notable weapons include the <strong>Khorasan Ripple Blade</strong>, the <strong>Divine Light Spear</strong>, and the <strong>Sabo Plate Hammer</strong>.</p> 
-				<p>In addition to new weapons, the DLC will also feature new shields crafted from Bulat steel and sturdy Suyab vines, providing players with enhanced defense options. The Persia DLC aims to bring even more excitement to the game's already diverse combat system, with guild battles and raids becoming even more thrilling.</p> 
-				<p>With the release of the Persia DLC, Myth of Empires continues to expand its world, offering players new ways to engage in epic battles and build their kingdoms. Stay tuned for more updates as the game prepares for this highly anticipated expansion!</p> 
-			</div>
-                </div>
+
+<!-- The Second Modal -->
+<div id="myModal2" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close2">&times;</span>
+        <p>Date: January 5, 2025</p>
+        <p>By: p1skates</p>
+        <p>Category: Game Updates</p>
+        <h3>The historical survival sandbox game Myth of Empires has revealed a new set of weapons for its upcoming Persia DLC. Indie game developer Angela Game and publisher Imperium Interactive Entertainment have showcased a variety of unique and powerful weapons that will be added to the game.</h3>
+        <p>The Persia DLC introduces over a dozen new weapons, each with distinct designs and abilities. Highlights include the <strong>White Wolf Waist Knife</strong>, perfect for mounted combat, and the <strong>Inferno Hatchet</strong>, known for its ability to break through shields and armor. Other notable weapons include the <strong>Khorasan Ripple Blade</strong>, the <strong>Divine Light Spear</strong>, and the <strong>Sabo Plate Hammer</strong>.</p>
+        <p>In addition to new weapons, the DLC will also feature new shields crafted from Bulat steel and sturdy Suyab vines, providing players with enhanced defense options. The Persia DLC aims to bring even more excitement to the game's already diverse combat system, with guild battles and raids becoming even more thrilling.</p>
+        <p>With the release of the Persia DLC, Myth of Empires continues to expand its world, offering players new ways to engage in epic battles and build their kingdoms. Stay tuned for more updates as the game prepares for this highly anticipated expansion!</p>
+    </div>
+</div>
+
+
+
 <br><br>
                 <div class="news-item">
                     <img src="images/news2.jpg" alt="News 2 Thumbnail">
@@ -205,46 +211,63 @@
     <script src="https://kit.fontawesome.com/e5fbed3b4c.js" crossorigin="anonymous"></script>
     <script src="assets/rand.js"></script>
 		  
-		  <script>
-    // Get the modal
-    var modal = document.getElementById("myModal1");
 
-    // Get the button that opens the modal
-    var btn = document.getElementById("openModalBtn1");
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close1")[0];
+<script>
+    // Get the first modal
+    var modal1 = document.getElementById("myModal1");
 
-    // When the user clicks the button, open the modal
-    btn.onclick = function() {
-        modal.style.display = "block";
+    // Get the button that opens the first modal
+    var btn1 = document.getElementById("openModalBtn1");
+
+    // Get the <span> element that closes the first modal
+    var span1 = document.getElementsByClassName("close1")[0];
+
+    // When the user clicks the button, open the first modal
+    btn1.onclick = function() {
+        modal1.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
+    // When the user clicks on <span> (x), close the first modal
+    span1.onclick = function() {
+        modal1.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
+    // When the user clicks anywhere outside of the first modal, close it
     window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target == modal1) {
+            modal1.style.display = "none";
         }
     }
 
-			  // Get the second modal 
-			  var modal2 = document.getElementById("myModal2"); 
-			  // Get the button that opens the second modal 
-			  var btn2 = document.getElementById("openModalBtn2"); 
-			  // Get the <span> element that closes the second modal 
-			  var span2 = document.getElementsByClassName("close2")[0]; 
-			  // When the user clicks the button, open the second modal 
-			  btn2.onclick = function() { modal2.style.display = "block"; } 
-			  // When the user clicks on <span> (x), close the second modal 
-			  span2.onclick = function() { modal2.style.display = "none"; }
-			  // When the user clicks anywhere outside of the second modal, close it 
-			  window.onclick = function(event) { if (event.target == modal2) { modal2.style.display = "none"; }}
+    // Get the second modal
+    var modal2 = document.getElementById("myModal2");
+
+    // Get the button that opens the second modal
+    var btn2 = document.getElementById("openModalBtn2");
+
+    // Get the <span> element that closes the second modal
+    var span2 = document.getElementsByClassName("close2")[0];
+
+    // When the user clicks the button, open the second modal
+    btn2.onclick = function() {
+        modal2.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the second modal
+    span2.onclick = function() {
+        modal2.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the second modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal2) {
+            modal2.style.display = "none";
+        }
+    }
 </script>
+
+
       
   </body>
 </html>
