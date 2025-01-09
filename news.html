@@ -125,7 +125,7 @@
 <button id="openModalBtn">Click here to read more</button>
 
 		<!-- The Modal -->
-		<div id="myModal" class="modal">
+		<div id="myModal1" class="modal">
     			<!-- Modal content -->
    		 	<div class="modal-content">
         			<span class="close">&times;</span>
@@ -207,13 +207,13 @@
 		  
 		  <script>
     // Get the modal
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("myModal1");
 
     // Get the button that opens the modal
-    var btn = document.getElementById("openModalBtn");
+    var btn = document.getElementById("openModalBtn1");
 
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    var span = document.getElementsByClassName("close1")[0];
 
     // When the user clicks the button, open the modal
     btn.onclick = function() {
@@ -243,7 +243,7 @@
 			  // When the user clicks on <span> (x), close the second modal 
 			  span2.onclick = function() { modal2.style.display = "none"; }
 			  // When the user clicks anywhere outside of the second modal, close it 
-			  window.onclick = function(event) { if (event.target == modal2) { modal2.style.display = "none"; }
+			  window.onclick = function(event) { if (event.target == modal2) { modal2.style.display = "none"; }}
 </script>
       
   </body>
